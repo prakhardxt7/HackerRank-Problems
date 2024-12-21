@@ -9,3 +9,4 @@ WHERE city NOT LIKE '%a'
 
 
 -- MSSQL
+select distinct city from station where city like '%[^aeiou]';
